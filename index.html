@@ -105,7 +105,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1YZehlX1Q2FWpGdJ8UrZhko5TMMnWSIH1wbYn1pzDd10/gviz/tq?tqx=out:csv&sheet=Street Wise Boulder Mural Locations',
+        url: 'https://docs.google.com/spreadsheets/d/1YZehlX1Q2FWpGdJ8UrZhko5TMMnWSIH1wbYn1pzDd10/gviz/tq?tqx=out:csv&sheet=Street%20Wise%20Boulder%20Mural%20Locations',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
